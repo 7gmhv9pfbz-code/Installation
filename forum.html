@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="config/forum-config.js"></script>
+  <script src="forum.js" defer></script>
+</head>
+
+<body>
+  <table class="archive-table">
+    <tr>
+      <td class="header-bar">
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">HOME</a>
+          <a href="art.html">ART</a>
+          <a href="forum.html">FORUM</a>
+          <a href="about.html">ABOUT</a>
+        </nav>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="content-panel">
+        <div class="title">FORUM</div>
+        <p class="forum-notice">
+          Public discussion. Messages are visible to everyone and may be removed by the site administrators.
+          Do not include private information.
+        </p>
+
+        <form class="forum-form" id="forum-form">
+          <label for="post-name">NAME</label>
+          <input id="post-name" name="name" maxlength="40" required autocomplete="name">
+
+          <label for="post-message">MESSAGE</label>
+          <textarea id="post-message" name="message" maxlength="1000" required></textarea>
+
+          <button id="post-submit" type="submit">POST MESSAGE</button>
+        </form>
+
+        <p class="forum-status" id="forum-status" role="status" aria-live="polite"></p>
+
+        <section class="forum-posts" aria-labelledby="posts-heading">
+          <h2 id="posts-heading">MESSAGES</h2>
+          <div id="forum-list"></div>
+        </section>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+  margin: 8px;
+  color: #29261f;
+  background: #eeece4;
+  font: 16px "Times New Roman", Times, serif;
+}
+
+.archive-table {
+  width: 600px;
+  max-width: 100%;
+  margin: 24px auto;
+  border: 1px solid #b8b1a3;
+  border-spacing: 2px;
+  background: #fbf9f2;
+}
+
+.archive-table td {
+  padding: 6px;
+}
+
+.header-bar {
+  background: #e4e2d7;
+}
+
+.site-nav {
+  font: 13px Arial, Helvetica, sans-serif;
+}
+
+.site-nav a {
+  margin-right: 12px;
+  color: #29261f;
+}
+
+.site-nav a:visited {
+  color: #29261f;
+}
+
+.content-panel {
+  padding: 16px !important;
+}
+
+.title-row {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #c4bcae;
+  color: #4b4940;
+  font-size: 20px;
+}
+
+.meta {
+  display: block;
+  margin-top: 5px;
+  color: #777164;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.description {
+  margin-top: 14px;
+  line-height: 1.4;
+}
+
+.description p {
+  margin: 0;
+}
+
+.sample-photo {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin: 14px 0;
+  border: 1px solid #c9c1b3;
+  background: #f4eee7;
+}
+
+.info-table {
+  margin-top: 10px;
+  border-spacing: 0;
+  font: 14px "Times New Roman", Times, serif;
+}
+
+.info-table td {
+  padding: 2px 0;
+}
+
+.info-table .label {
+  width: 76px;
+}
+
+.info-table a,
+.info-table a:visited {
+  color: #625d52;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.forum-notice {
+  color: #625d52;
+  font-size: 14px;
+}
+
+.forum-form label {
+  display: block;
+  margin-top: 12px;
+}
+
+.forum-form input,
+.forum-form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 440px;
+  margin-top: 4px;
+  padding: 5px;
+  border: 1px solid #a9a293;
+  background: #fffef9;
+  color: #29261f;
+  font: 14px Arial, Helvetica, sans-serif;
+}
+
+.forum-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.forum-form button {
+  margin-top: 12px;
+  padding: 5px 12px;
+  border: 1px solid #8f8878;
+  background: #e4e2d7;
+  color: #29261f;
+  font: 13px Arial, Helvetica, sans-serif;
+}
+
+.forum-form button:disabled {
+  color: #777164;
+}
+
+.forum-status {
+  min-height: 1.4em;
+  margin: 10px 0;
+}
+
+.forum-posts {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #c4bcae;
+}
+
+.forum-post {
+  padding: 12px 0;
+  border-bottom: 1px solid #d5d0c5;
+}
+
+.forum-post header {
+  margin-bottom: 6px;
+  color: #625d52;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+
+.forum-post p {
+  margin: 0;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
